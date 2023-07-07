@@ -4,9 +4,9 @@ export const TransactionList = () => {
   return (
     <>
     <h3>History</h3>
-    <ul id="list" class="list">
-        <li class="minus">
-            Cash<span>-$400</span><button class="delete-btn"></button>
+    <ul className="list">
+        <li className="minus">
+            Cash<span>-$400</span><button className="delete-btn"></button>
         </li>
     </ul>
     </>
